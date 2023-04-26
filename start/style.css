@@ -1,0 +1,46 @@
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+
+  .logo {
+    height: 60px;
+    background-color: #2b2b2b;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .link {
+    color: #2b2b2b;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #2b2bb2;
+  }
+  
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #2b2b2b;
+  }
+ 
+  .username {
+    color: #2b2b2b;
+    margin-top: 10px;
+}
